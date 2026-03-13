@@ -1,35 +1,36 @@
-```python
-# Compiled Python files
-*.pyc
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+# Dependencies
 __pycache__/
-
-# Virtual environments
-venv/
-.venv/
+*.pyc
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
 # Editors
 .vscode/
 .idea/
-
-# Build artifacts
+# Build directories
 build/
 dist/
 target/
-
-# Dependencies
-node_modules/
-.mypy_cache/
-.pytest_cache/
-coverage/
-htmlcov/
-```
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
