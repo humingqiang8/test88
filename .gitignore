@@ -1,3 +1,36 @@
-```java
-
-```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.out
+# Dependencies
+__pycache__/
+*.pyc
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+# Environment
+.env
+.env.local
+*.env.*
+# Editors
+.vscode/
+.idea/
+# Build directories
+build/
+dist/
+target/
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
