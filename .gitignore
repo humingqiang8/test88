@@ -1,5 +1,15 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+*.csv
+*.log
+*.tmp
+*.swp
+*.env
+.env.local
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+dist/
+build/
+node_modules/
+.venv/
+venv/
